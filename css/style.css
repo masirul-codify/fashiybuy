@@ -1,0 +1,89 @@
+/* Megamenu css start */
+
+.navbar .megamenu{ padding: 1rem; }
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+	
+	.navbar .has-megamenu{position:static!important;}
+	.navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+	
+}	
+/* ============ desktop view .end// ============ */
+
+
+/* ============ mobile view ============ */
+@media(max-width: 991px){
+	.navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+		overflow-y: auto;
+	    max-height: 90vh;
+	    margin-top:10px;
+	}
+}
+/* ============ mobile view .end// ============ */
+
+
+/* Megamenu css end */
+
+
+
+.boxshadow{
+  box-shadow: 0px 4px 8px 1px rgba(0,0,0,0.55);
+-webkit-box-shadow: 0px 4px 8px 1px rgba(0,0,0,0.55);
+-moz-box-shadow: 0px 4px 8px 1px rgba(0,0,0,0.55);
+
+}
+.hovershadow:hover{
+  box-shadow: 0px 9px 19px 1px rgba(0,0,0,0.55);
+  -webkit-box-shadow: 0px 9px 19px 1px rgba(0,0,0,0.55);
+  -moz-box-shadow: 0px 9px 19px 1px rgba(0,0,0,0.55);
+}
+.socile{
+  color: rgb(143, 140, 147);
+}
+.socile:hover{
+  color: #f87302;
+}
+
+.heroimg{
+  box-shadow: 0px -5px 106px 66px rgba(0,0,0,0.34) inset;
+  -webkit-box-shadow: 0px -5px 106px 66px rgba(0,0,0,0.34) inset;
+  -moz-box-shadow: 0px -5px 106px 66px rgba(0,0,0,0.34) inset;
+}
+.hero{
+  height: 300px;
+  background-image: url('../img/home_küchenplaner_aktion_15Prozent_KW22.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.relative {
+  left: 0%;
+  position: relative;
+} 
+
+div.absolute {
+  position: absolute;
+  bottom: 0;
+}
+
+.link:hover{
+  color: #f87302!important; 
+}
+
+/* responsive  */
+
+@media screen and (min-width:992px)
+{
+  .logo{
+    display: block;
+  }
+}
+
+
+/* product card  hover */
+.hard{
+  display: none;
+}
+.card:hover .hard{
+  display: block;
+}
+
